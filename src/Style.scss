@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logout_btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.3s;
+
+    &:hover {
+        color: rgb(119, 60, 50)
+    }
+}
+
+.list_user {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: rgba(18, 17, 17, 0.2);
+    }
+}
+
+.sendMessage {
+    width: 10%;
+    background-color: #2363cb;
+    color: black;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #1758c0;
+        color: #ded9d9;
+    }
+}
