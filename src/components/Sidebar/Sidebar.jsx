@@ -7,7 +7,7 @@ import { Row, Col } from 'antd'
 function Sidebar() {
     return (
         <>
-            <Row style={{ padding: ' 20px 0', borderBottom: '1px solid #fff', height: '10vh' }}>
+            <Row style={{ padding: ' 20px 0', borderBottom: '1px solid #fff', height: '10vh', minWidth: '30%' }}>
                 <SidebarHeader />
             </Row>
             <Row style={{ paddingTop: '10px', display: 'flex', flexDirection: 'column', gap: '10px', height: '90vh' }}>
