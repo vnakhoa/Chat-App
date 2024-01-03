@@ -27,7 +27,7 @@ function SidebarListUser() {
                 console.log(data);
 
                 newList.push({ ...data, id: doc.id })
-            }); 32
+            });
 
             if (user != null && newList.length > 0) {
                 const list = newList.filter((item) => { return item.uid != user.uid })

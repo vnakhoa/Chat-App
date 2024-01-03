@@ -18,7 +18,7 @@ function SidebarHeader() {
     console.log(chooseFriend)
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', flexWrap: 'wrap' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '3px', cursor: 'pointer' }}>
                 {
                     user && (user?.photoURL
