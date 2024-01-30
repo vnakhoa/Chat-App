@@ -1,3 +1,16 @@
+# Description: An e-commerce website designed for selling electronic products. It facilitates businesses in managing their product lists, and the admin can easily edit product information on the dashboard system.
+
+# Technology: ReactJS, Create-react-app, React Router V6, React Hook, Redux & Redux Toolkit, Axios, Ant Design, Bootstrap, Firebase, NodeJS, Express, MongoDB.
+
+# Features:
+- User authentication with  Firebase Authentication for registration, login, and logout functionality.
+- Using the Firebase useAuthState hook to determine the login status of user accounts.
+- Interact with an API  and using Redux to filter products based on customer preferences, allowing users to browse products by category, name, price, size, color, and search for products by name.
+- Interact with an API and using Redux to view detailed product information and explore product specifications.
+- Shopping cart functionality to add and remove products, along with a checkout process to complete purchases using Redux to store products and total amount. Users can increase or decrease the quantity of products in their shopping cart.
+- An interactive API management dashboard system for product management, facilitating administrators to easily add, edit, and delete products as needed.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
