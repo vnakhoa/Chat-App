@@ -1,15 +1,11 @@
-# Description: An e-commerce website designed for selling electronic products. It facilitates businesses in managing their product lists, and the admin can easily edit product information on the dashboard system.
 
-# Technology: ReactJS, Create-react-app, React Router V6, React Hook, Redux & Redux Toolkit, Axios, Ant Design, Bootstrap, Firebase, NodeJS, Express, MongoDB.
-
-# Features:
-- User authentication with  Firebase Authentication for registration, login, and logout functionality.
-- Using the Firebase useAuthState hook to determine the login status of user accounts.
-- Interact with an API  and using Redux to filter products based on customer preferences, allowing users to browse products by category, name, price, size, color, and search for products by name.
-- Interact with an API and using Redux to view detailed product information and explore product specifications.
-- Shopping cart functionality to add and remove products, along with a checkout process to complete purchases using Redux to store products and total amount. Users can increase or decrease the quantity of products in their shopping cart.
-- An interactive API management dashboard system for product management, facilitating administrators to easily add, edit, and delete products as needed.
-
+- Description: A messaging app that helps people chat and exchange information with each other easily and in real-time.
+- Technology: ReactJS, Create-React-App, React Router V6, React Hook, React Firebase Hook, Cloud FireStore, Ant Design, SCSS/SASS.
+- Features: 
++ Users can register, log in, and log out using Firebase Authentication.  
++ Individual users' profile avatars can be changed based on their own photos.
++ Users can select contacts for messaging and engage in real-time conversations. Messages will be displayed in chronological order using Firebase's orderBy based on the timestamp.
++ When a message is sent, the recipient immediately receives the message in real-time by using onSnapshot to listen for Cloud Firestore change events.
 
 # Getting Started with Create React App
 
